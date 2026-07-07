@@ -9,9 +9,9 @@ export const siteConfig = {
   description:
     "Quvel is an AI receptionist for service businesses. It answers every call, books appointments, qualifies leads, and works 24/7 so you never lose another customer.",
   url: "https://getquvel.com",
-  demoUrl: "https://cal.com/abdulaziz-4o5puo/30minute-demo",
+  demoUrl: "https://cal.com/james-quvel/15minute-demo",
   liveAiTel: "+14582168617",
-  contactEmail: "hello@getquvel.com",
+  contactEmail: "james@getquvel.com",
 } as const;
 
 export const liveAiHref = `tel:${siteConfig.liveAiTel}`;

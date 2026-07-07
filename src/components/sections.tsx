@@ -129,7 +129,7 @@ export function FinalCta() {
             </p>
             <div className="flex flex-wrap justify-center gap-[14px] max-[480px]:flex-col">
               <a
-                href="https://cal.com/abdulaziz-4o5puo/30minute-demo"
+                href="https://cal.com/james-quvel/15minute-demo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-[14px] bg-white px-[26px] py-[15px] text-base font-semibold text-ink transition-all hover:-translate-y-0.5 hover:bg-[#ececf0] max-[480px]:w-full"

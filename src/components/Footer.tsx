@@ -43,7 +43,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-[22px] w-full border-t border-line pt-[22px] text-[13px] text-ink-faint">
-          © {new Date().getFullYear()} Hanvora Brand LLC. All rights reserved.
+          © {new Date().getFullYear()}Quvel, a Brand of Hanvora Brand LLC. All rights reserved.
         </div>
       </div>
     </footer>

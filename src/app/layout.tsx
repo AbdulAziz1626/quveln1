@@ -53,13 +53,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   icons: {
     icon: [
-      {
-        url:
-          'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="8" fill="%232563EB"/><circle cx="16" cy="15" r="7" fill="none" stroke="white" stroke-width="2.4"/><circle cx="16" cy="15" r="2.6" fill="white"/><path d="M21.5 20.5l4 4" stroke="white" stroke-width="2.4" stroke-linecap="round"/></svg>',
-      },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
     ],
+    apple: [{ url: "/apple-touch-icon.png" }],
   },
-};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

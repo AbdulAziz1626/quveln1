@@ -11,7 +11,7 @@ export const siteConfig = {
   url: "https://getquvel.com",
   demoUrl: "https://cal.com/aziz-quvel/15minute-demo",
   liveAiTel: "+14582168617",
-  contactEmail: "james@getquvel.com",
+  contactEmail: "support@getquvel.com",
 } as const;
 
 export const liveAiHref = `tel:${siteConfig.liveAiTel}`;
